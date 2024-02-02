@@ -11,5 +11,5 @@ library(ggplot2)
 
 mtcars
 
-ggplot(mtcars, aes(cyl,mpg)) +
-  geom_point(aes(color = wt))
+ggplot(mtcars, aes(wt,mpg)) +
+  geom_point(aes(color = disp))
